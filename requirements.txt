@@ -1,0 +1,9 @@
+pandas>=2.1
+numpy>=1.25
+openpyxl>=3.1
+pyarrow>=14.0
+fastparquet>=2024.2.0
+python-dotenv>=1.0
+statsmodels>=0.14
+tqdm>=4.66
+psutil>=5.9

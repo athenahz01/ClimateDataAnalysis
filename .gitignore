@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+*.dist-info/
+
+# Virtual env & secrets
+.venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Data & outputs
+data/
+out/
+tmp/
+*.parquet
+*.csv
+*.xlsx
+
+# OS junk
+.DS_Store
+Thumbs.db
