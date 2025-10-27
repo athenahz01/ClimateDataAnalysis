@@ -22,5 +22,16 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
+[project]
+dependencies = [
+  "pandas>=2.0",
+  "numpy>=1.24",
+  "statsmodels>=0.14",
+  "matplotlib>=3.7",
+  "openpyxl>=3.1",     # for EDGAR .xlsx
+  "pycountry>=22.3.5"  # ISO2↔ISO3 helper
+]
+
+
 [project.urls]
 Homepage = "https://example.com"
